@@ -1,0 +1,16 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "Base": {},
+  "canShowOnTitle": true,
+  "name": "Giant's Deep",
+  "Orbit": {
+    "semiMajorAxis": 0.0
+  },
+  "removeChildren": [
+    "Sector_GD/Clouds_GD",
+    "Atmosphere_GD/FogSphere"
+  ],
+  "ShipLog": {
+    "mapMode": {}
+  }
+}

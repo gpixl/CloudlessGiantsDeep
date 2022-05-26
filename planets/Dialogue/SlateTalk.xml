@@ -1,0 +1,54 @@
+<DialogueTree>
+	<NameField>Slate</NameField>
+
+	<DialogueNode>
+		<Name>MAIN</Name>
+		<EntryCondition>DEFAULT</EntryCondition>
+		<Dialogue>
+			<Page>There's our pilot! Ready to get this beauty off the ground?</Page>
+			<Page>Hey, what can I do for you?</Page>
+		</Dialogue>
+		
+		<DialogueOptionsList>
+			<DialogueOption>
+				<Text>Something's up with Giant's Deep.</Text>
+				<DialogueTarget>1</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>SOMETHING'S UP WITH GIANT'S DEEP!</Text>
+				<DialogueTarget>2</DialogueTarget>
+			</DialogueOption>
+			<DialogueOption>
+				<Text>See you later.</Text>
+				<DialogueTarget>END</DialogueTarget>
+			</DialogueOption>
+		</DialogueOptionsList>
+	</DialogueNode>
+	
+	<DialogueNode>
+		<Name>1</Name>
+		<Dialogue>
+			<Page>Yeah, Gabbro radioed me about it earlier. Giant's Deep does look a bit peculiar right now, doesn't it?</Page>
+			<Page>You should go talk to them once you get into space, I bet they probably know what's up with it.</Page>
+			<Page>Or at least, maybe they have some 'theories'.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+	<DialogueNode>
+		<Name>2</Name>
+		<Dialogue>
+			<Page>Whoah, calm down there. I know astronauts tend to get a bit jumpy before their first launch, but this is a bit much.</Page>
+			<Page>Honestly, I have no clue what happened to Giant's Deep.</Page>
+			<Page>You know, I bet Gabbro knows something about it. Once you get into space, you should give them a visit.</Page>
+		</Dialogue>
+	</DialogueNode>
+
+
+	
+	<DialogueNode>
+		<Name>END</Name>
+		<Dialogue>
+			<Page>Good luck!</Page>
+		</Dialogue>
+	</DialogueNode>
+</DialogueTree>
