@@ -1,0 +1,16 @@
+{
+    "name" : "GabbroIsland",
+    "removeChildren": [
+      "Sector_GabbroIsland/Interactables_GabbroIsland/Traveller_HEA_Gabbro/ConversationZone_Gabbro",
+     ],
+	"Props" : 
+	{
+		"dialogue" :
+		[
+			{
+				"position": {"x": -15.43203, "y": -0.3566817, "z": 47.51452},
+				"xmlFile" : "planets/Dialogue/GabbroTalk.xml"
+			}
+		]
+	}
+}
