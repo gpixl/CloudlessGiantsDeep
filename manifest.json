@@ -3,7 +3,7 @@
   "author": "Greenpixel",
   "name": "Cloudless Giant's Deep",
   "uniqueName": "gpixl.NoMoreGDClouds",
-  "version": "0.12.0",
+  "version": "0.1.0",
   "owmlVersion": "2.1.0",
   "dependencies": [ "xen.NewHorizons" ]
 }
